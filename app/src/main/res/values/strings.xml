@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Encript_Descipt</string>
+    <string name="encript_btn">ENCRYPT</string>
+    <string name="decrypt_btn">DECRYPT</string>
+    <string name="main_string">Crypto String</string>
+    <string name="encrypt_toolbar">Encrypting String</string>
+    <string name="decrypt_toolbar">Decrypting String</string>
+</resources>

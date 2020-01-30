@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_primary">#fff</color>
+    <color name="color_primary_dark">#fff</color>
+    <color name="color_accent">#2979FF</color>
+
+    <color name="encrypt_btn_color">#00C853</color>
+    <color name="decrypt_btn_color">#DD2C00</color>
+    <color name="toolbar_title">#2979FF</color>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_primary"
+    android:id="@+id/toolbarEncrypt"
+    app:titleTextColor="@color/toolbar_title"
+    app:navigationIcon="@drawable/back_arrow">
+
+</androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20sp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/sqare_shape"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/encrypt_edt"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:id="@+id/encrypt_submit_btn"
+            android:background="@color/toolbar_title"
+            android:textColor="@color/color_primary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/result_text"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</LinearLayout>

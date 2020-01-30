@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_primary"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/main_string"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</androidx.appcompat.widget.Toolbar>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:padding="20sp"
+       >
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/encript_btn"
+           android:id="@+id/btnEncrypt"
+           android:layout_marginBottom="10dp"
+           android:background="@color/encrypt_btn_color"
+           />
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/decrypt_btn"
+           android:layout_marginTop="10dp"
+           android:id="@+id/btnDecrypt"
+           android:background="@color/decrypt_btn_color"
+           />
+   </LinearLayout>
+
+</LinearLayout>
